@@ -1,0 +1,47 @@
+@font-face {
+    font-family:"Galien Regular";
+    font-size:16px;
+    font-style:normal;
+    src: url("d1243736bfe07b546f8f1e54e7804afb.eot"); /* IE9*/
+    src: url("d1243736bfe07b546f8f1e54e7804afb.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("d1243736bfe07b546f8f1e54e7804afb.woff2") format("woff2"), /* chrome、firefox */
+    url("d1243736bfe07b546f8f1e54e7804afb.woff") format("woff"), /* chrome、firefox */
+    url("d1243736bfe07b546f8f1e54e7804afb.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("d1243736bfe07b546f8f1e54e7804afb.svg#Galien Regular") format("svg"); /* iOS 4.1- */
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,* ::before, ::after{
+    box-sizing: inherit;
+}
+
+.main{
+    flex: 1 0 auto;
+    position: relative;
+    width: 1366px;
+    height: 5161px;
+
+    background: #FFFFFF;
+}
+
+.rectangle{
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    opacity: 0.2;
+}
+.rectangle3{
+    position: absolute;
+    width: 1366px;
+    height: 1549px;
+    left: 0px;
+    top: 3612px;
+    background: #5A98D0;
+    border-radius: 200px 0px 0px 0px;
+}
