@@ -18,13 +18,29 @@ html{
     box-sizing: inherit;
 }
 
-.main{
+.desktop{
     flex: 1 0 auto;
     position: relative;
     width: 1366px;
     height: 5161px;
-
     background: #FFFFFF;
+}
+
+
+.header{
+    display: flex;
+    background: white;
+}
+
+.navigation{
+    display: flex;
+    position: absolute;
+    width: 1200px;
+    height: 48px;
+    left: 83px;
+    top: 40px;
+    justify-content: space-between;
+
 }
 
 .rectangle{
@@ -36,7 +52,8 @@ html{
     background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
     opacity: 0.2;
 }
-.rectangle3{
+
+.footer{
     position: absolute;
     width: 1366px;
     height: 1549px;
