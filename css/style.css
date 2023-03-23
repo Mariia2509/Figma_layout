@@ -26,7 +26,7 @@ html{
     background: #FFFFFF;
 }
 
-
+/*Header styles start*/
 .header{
     display: flex;
     background: white;
@@ -40,10 +40,12 @@ html{
     left: 83px;
     top: 40px;
     justify-content: space-between;
-
 }
+/*Header styles end*/
 
-.rectangle{
+/*Intro styles start*/
+
+.intro{
     position: absolute;
     width: 1366px;
     height: 768px;
@@ -51,6 +53,48 @@ html{
     top: 0px;
     background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
     opacity: 0.2;
+    background-size: cover;
+}
+
+.illustration-pic {
+    position: absolute;
+    width: 687.25px;
+    height: 579.31px;
+    left: 655.38px;
+    top: 133px;
+
+}
+
+.text{
+    position: absolute;
+    width: 510px;
+    height: 148px;
+    left: 212px;
+    top: 189px;
+    font-family:'Galien';
+    font-size: 64px;
+    line-height: 74px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.04em;
+    /* Blue_01 */
+    color: #1F3F68;
+}
+.lorem{
+    position: absolute;
+    width: 425px;
+    height: 82px;
+    left: 213px;
+    top: 369px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    vertical-align: top;
+    /* Blue_01 */
+    color: #1F3F68;
+    opacity: 0.6;
 }
 
 .footer{
