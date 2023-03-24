@@ -65,12 +65,13 @@ html{
 
 }
 
-.text{
+.intro_title{
     position: absolute;
-    width: 510px;
-    height: 148px;
+    max-width: 510px;
+    max-height: 148px;
     left: 212px;
     top: 189px;
+    margin:0;
     font-family:'Galien';
     font-size: 64px;
     line-height: 74px;
@@ -80,13 +81,14 @@ html{
     /* Blue_01 */
     color: #1F3F68;
 }
-.lorem{
+.intro_subtitle{
     position: absolute;
     width: 425px;
     height: 82px;
     left: 213px;
     top: 369px;
     font-family: 'Gilroy';
+    font-style: normal;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
