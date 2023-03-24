@@ -44,7 +44,6 @@ html{
 /*Header styles end*/
 
 /*Intro styles start*/
-
 .intro{
     position: absolute;
     width: 1366px;
@@ -98,7 +97,7 @@ html{
     opacity: 0.6;
 }
 
-.intro_button{
+.intro_button {
     position: absolute;
     width: 220px;
     height: 56px;
@@ -114,6 +113,63 @@ html{
     text-align: center;
     letter-spacing: 0.04em;
 }
+
+.intro_button:hover, :focus, :active {
+    background: rgb(55 109 157);
+    cursor: pointer;
+}
+/*Intro styles end*/
+
+/*Main content styles start*/
+.main_content_title{
+    position: absolute;
+    width: 358px;
+    height: 138px;
+    left: 213px;
+    top: 960px;
+    font-family: 'Gilroy';
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /* blue_02 */
+    color: #316099;
+}
+
+.card1{
+    position: absolute;
+    width: 380px;
+    height: 525px;
+    left: 773px;
+    top: 960px;
+    background: #FFFFFF;
+    /* shadow1 */
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+.card2{
+    position: absolute;
+    width: 380px;
+    height: 525px;
+    left: 293px;
+    top: 1256px;
+    background: #FFFFFF;
+    /* shadow1 */
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+.card3{
+    position: absolute;
+    width: 380px;
+    height: 525px;
+    left: 773px;
+    top: 1585px;
+    background: #FFFFFF;
+    /* shadow1 */
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+
 
 .footer{
     position: absolute;
