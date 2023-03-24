@@ -62,7 +62,6 @@ html{
     height: 579.31px;
     left: 655.38px;
     top: 133px;
-
 }
 
 .intro_title{
@@ -97,6 +96,23 @@ html{
     /* Blue_01 */
     color: #1F3F68;
     opacity: 0.6;
+}
+
+.intro_button{
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 213px;
+    top: 522px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
 }
 
 .footer{
