@@ -146,6 +146,58 @@ html{
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
 }
+.card1_title{
+    position: absolute;
+    width: 259px;
+    height: 60px;
+    left: 821px;
+    top: 1196px;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    /* Blue_01 */
+    color: #1F3F68;
+}
+.card1_text{
+    position: absolute;
+    width: 284px;
+    height: 103px;
+    left: 821px;
+    top: 1272px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    /* Blue_01 */
+    color: #1F3F68;
+    opacity: 0.6;
+}
+.card1_learnMore{
+    position: absolute;
+    width: 79px;
+    height: 30px;
+    left: 821px;
+    top: 1407px;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    /* blue_04 */
+    color: #5A98D0;
+}
+.card1_learnMore:hover,:active,:focus{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card1_iconForward-pic{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 924px;
+    top: 1410px;
+}
+
 .card2{
     position: absolute;
     width: 380px;
