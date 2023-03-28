@@ -19,10 +19,10 @@ html{
 }
 
 .desktop{
-    flex: 1 0 auto;
     position: relative;
     width: 1366px;
     height: 5161px;
+
     background: #FFFFFF;
 }
 
@@ -135,6 +135,7 @@ html{
     color: #316099;
 }
 
+/*Card1 styles start*/
 .card1{
     position: absolute;
     width: 380px;
@@ -183,7 +184,7 @@ html{
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
-    /* blue_04 */
+     /*blue_04    */
     color: #5A98D0;
 }
 .card1_learnMore:hover,:active,:focus{
@@ -197,7 +198,16 @@ html{
     left: 924px;
     top: 1410px;
 }
+.card1_icon3-pic{
+    position: absolute;
+    width: 224px;
+    height: 197px;
+    left: 851px;
+    top: 948px;
+}
+/*Card1 styles end*/
 
+/*Card12styles start*/
 .card2{
     position: absolute;
     width: 380px;
@@ -209,6 +219,64 @@ html{
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
 }
+.card2_title{
+    position: absolute;
+    width: 257px;
+    height: 60px;
+    left: 341px;
+    top: 1492px;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    /* Blue_01 */
+    color: #1F3F68;
+}
+.card2_text{
+    position: absolute;
+    width: 284px;
+    height: 103px;
+    left: 341px;
+    top: 1568px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    /* Blue_01 */
+    color: #1F3F68;
+    opacity: 0.6;
+}
+.card2_learnMore{
+    position: absolute;
+    width: 79px;
+    height: 30px;
+    left: 341px;
+    top: 1703px;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    /* blue_04 */
+    color: #5A98D0;
+}
+
+.card2_iconForward-pic{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 444px;
+    top: 1706px;
+}
+.card2_icon1-pic {
+    position: absolute;
+    width: 182px;
+    height: 132px;
+    left: 367px;
+    top: 1304px;
+}
+/*Card2 styles end*/
+
+/*Card3 styles start*/
 .card3{
     position: absolute;
     width: 380px;
@@ -220,6 +288,153 @@ html{
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
 }
+.card3_title{
+    position: absolute;
+    width: 284px;
+    height: 60px;
+    left: 821px;
+    top: 1821px;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    /* Blue_01 */
+    color: #1F3F68;
+}
+.card3_text{
+    position: absolute;
+    width: 284px;
+    height: 103px;
+    left: 821px;
+    top: 1897px;
+
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    /* Blue_01 */
+    color: #1F3F68;
+    opacity: 0.6;
+}
+.card3_learnMore{
+    position: absolute;
+    width: 79px;
+    height: 30px;
+    left: 821px;
+    top: 2032px;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    /* blue_04 */
+    color: #5A98D0;
+}
+.card3_iconForward{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 924px;
+    top: 2035px;
+}
+.card3_icon2-pic{
+    position: absolute;
+    width: 156px;
+    height: 131px;
+    left: 873px;
+    top: 1634px;
+}
+/*Card3 styles end*/
+
+.finished_project{
+    display: flex;
+    justify-content: center;
+}
+.main_content_subtitle{
+    position: absolute;
+    width: 227px;
+    height: 92px;
+    left: 213px;
+    top: 2302px;
+    font-family: 'Gilroy';
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /* Blue_01 */
+    color: #1F3F68;
+}
+.main_content_text{
+    position: absolute;
+    width: 540px;
+    height: 80px;
+    left: 533px;
+    top: 2302px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    /* Blue_01 */
+    color: #1F3F68;
+    opacity: 0.6;
+}
+.image_smart_home{
+    position: absolute;
+    width: 940px;
+    height: 417px;
+    left: 213px;
+    top: 2490px;
+}
+.image_sparklite_app{
+    position: absolute;
+    width: 422px;
+    height: 417px;
+    left: 213px;
+    top: 3003px;
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+}
+.image_car_rapetition{
+    position: absolute;
+    width: 422px;
+    height: 417px;
+    left: 731px;
+    top: 3003px;
+    background: linear-gradient(306.48deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%);
+    border-radius: 10px;
+}
+.image_text1{
+    position: absolute;
+    width: 341px;
+    height: 46px;
+    left: 764px;
+    top: 2538px;
+    margin-top: 0;
+    font-family: 'Gilroy';
+    text-align: end;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /* white */
+    color: #FFFFFF;
+}
+.image_text2{
+    position: absolute;
+    width: 234px;
+    height: 46px;
+    left: 870px;
+    top: 2592px;
+    margin-top: 0;
+    font-family: 'Gilroy';
+    text-align: end;
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /* white */
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+
+
 
 
 
