@@ -345,6 +345,7 @@ html{
 }
 /*Card3 styles end*/
 
+/*Finish project starts*/
 .finished_project{
     display: flex;
     justify-content: center;
@@ -376,7 +377,7 @@ html{
     color: #1F3F68;
     opacity: 0.6;
 }
-.image_smart_home{
+.image_smart_home {
     position: absolute;
     width: 940px;
     height: 417px;
@@ -401,7 +402,7 @@ html{
     background: linear-gradient(306.48deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%);
     border-radius: 10px;
 }
-.image_text1{
+.image1_text1{
     position: absolute;
     width: 341px;
     height: 46px;
@@ -416,7 +417,7 @@ html{
     /* white */
     color: #FFFFFF;
 }
-.image_text2{
+.image1_text2{
     position: absolute;
     width: 234px;
     height: 46px;
@@ -432,17 +433,108 @@ html{
     color: #FFFFFF;
     opacity: 0.8;
 }
+.image2_text1{
+    position: absolute;
+    width: 191px;
+    height: 46px;
+    left: 245px;
+    top: 3027px;
+    margin-top: 0;
+    font-family: 'Gilroy';
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /* white */
+    color: #FFFFFF;
+}
+.image2_text2{
+    position: absolute;
+    width: 100px;
+    height: 46px;
+    left: 245px;
+    top: 3077px;
+    margin-top: 0;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /* white */
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.image3_text1{
+    position: absolute;
+    width: 280px;
+    height: 46px;
+    left: 763px;
+    top: 3027px;
+    margin-top: 0;
+    font-family: 'Gilroy';
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /* white */
+    color: #FFFFFF;
+}
+.image3_text2{
+    position: absolute;
+    width: 48px;
+    height: 46px;
+    left: 763px;
+    top: 3077px;
 
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /* white */
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+/*Finish project ends*/
 
+.client{
+    position: absolute;
+    width: 223px;
+    height: 92px;
+    left: 213px;
+    top: 3708px;
+    margin-top: 0;
+    font-family: 'Gilroy';
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /* white */
+    color: #FFFFFF;
+    z-index: 1;
+}
+.client_text {
+    position: absolute;
+    width: 540px;
+    height: 80px;
+    left: 533px;
+    top: 3708px;
+    margin-top: 0;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    /* white */
+    color: #FFFFFF;
+    opacity: 0.6;
+    z-index: 1;
+}
+.client_table{
+    display: grid;
+    grid-template-columns:repeat(6, 1fr);
 
-
-
+}
 
 .footer{
     position: absolute;
     width: 1366px;
     height: 1549px;
-    left: 0px;
+    left: 0;
     top: 3612px;
     background: #5A98D0;
     border-radius: 200px 0px 0px 0px;
