@@ -525,9 +525,23 @@ html{
     z-index: 1;
 }
 .client_table{
+    position: absolute;
+    width: 940px;
+    height: 256px;
+    left: 213px;
+    top: 3911px;
     display: grid;
-    grid-template-columns:repeat(6, 1fr);
+    place-items: center;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    z-index:1;
+}
 
+.client_table > div{
+    color: white;
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
 }
 
 .footer{
